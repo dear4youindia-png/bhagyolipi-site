@@ -1,7 +1,7 @@
 const copyButton = document.getElementById("copy-link");
 const note = document.getElementById("download-note");
 const downloadLink = document.getElementById("download-link");
-const defaultDownloadUrl = "https://github.com/your-username/your-repo/releases/latest/download/DearLottery.apk";
+const defaultDownloadUrl = "https://github.com/dear4youindia-png/bhagyolipi-site/releases/latest/download/Dear4You.apk";
 const downloadUrl = downloadLink?.getAttribute("href") && downloadLink.getAttribute("href") !== "#"
   ? downloadLink.getAttribute("href")
   : defaultDownloadUrl;
