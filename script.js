@@ -1,7 +1,7 @@
 const copyButton = document.getElementById("copy-link");
 const note = document.getElementById("download-note");
 const downloadLink = document.getElementById("download-link");
-const defaultDownloadUrl = "https://github.com/your-username/your-repo/releases/latest/download/Dear4You.apk";
+const defaultDownloadUrl = "https://github.com/your-username/your-repo/releases/latest/download/DearLottery.apk";
 const downloadUrl = downloadLink?.getAttribute("href") && downloadLink.getAttribute("href") !== "#"
   ? downloadLink.getAttribute("href")
   : defaultDownloadUrl;
@@ -21,7 +21,7 @@ if (copyButton) {
       window.setTimeout(() => {
         copyButton.textContent = "ডাউনলোড লিংক কপি";
         copyButton.classList.remove("is-copied");
-        note.textContent = "Download button-এ tap করে Dear4You APK সংগ্রহ করুন।";
+        note.textContent = "Download button-এ tap করে DearLottery APK সংগ্রহ করুন।";
       }, 2200);
     } catch (error) {
       note.textContent = "এই browser-এ auto copy কাজ করেনি। URL manually copy করুন।";
