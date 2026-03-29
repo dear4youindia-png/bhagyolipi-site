@@ -19,9 +19,9 @@ if (copyButton) {
       note.textContent = "ডাউনলোড লিংক clipboard-এ কপি হয়েছে।";
 
       window.setTimeout(() => {
-        copyButton.textContent = "ডাউনলোড লিংক কপি করুন";
+        copyButton.textContent = "ডাউনলোড লিংক কপি";
         copyButton.classList.remove("is-copied");
-        note.textContent = "GitHub Release link বসানোর পর এই বাটন live download হিসেবে কাজ করবে।";
+        note.textContent = "Download button-এ tap করে Dear4You APK সংগ্রহ করুন।";
       }, 2200);
     } catch (error) {
       note.textContent = "এই browser-এ auto copy কাজ করেনি। URL manually copy করুন।";
